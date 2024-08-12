@@ -1,2 +1,2 @@
-# azure-eventhub-transporter
-Azure EventHub transporter for logs
+# pino-eventhub-transporter
+Pino Azure EventHub logs transporter
