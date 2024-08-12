@@ -1,0 +1,44 @@
+{
+    "name": "pino-eventhub-transporter",
+    "version": "1.0.0",
+    "description": "Pino eventhub transporter",
+    "files": [
+        "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "main": "dist/index.js",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.js"
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danieldcosta/azure-eventhub-transporter.git"
+    },
+    "keywords": [
+        "pino",
+        "eventhub",
+        "azure eventhub",
+        "transport",
+        "typescript"
+    ],
+    "author": "Daniel Costa <danieldaleva@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danieldcosta/azure-eventhub-transporter/issues"
+    },
+    "homepage": "https://github.com/danieldcosta/azure-eventhub-transporter#readme",
+    "dependencies": {
+        "@azure/event-hubs": "^5.12.0",
+        "pino-abstract-transport": "^1.2.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    }
+}
